@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div className="w-full h-screen bg-gray-900 flex flex-col mt-10  items-center">
         <div className="w-[70%] pl-2 h-[200px] flex items-center justify-center mt-[100px] sm:mt-[170px]">
-        <h1 className="sm:text-5xl md:text-7xl text-3xl text-white font-extrabold"><span
+        <h1 className="sm:text-5xl text-center md:text-7xl text-3xl text-white font-extrabold"><span
          className="text-red-500">Avalanche</span> get access to several games and apps </h1>
          </div>
         <div className="md:mt-14 justify-center mt-4 flex sm:w-[50%] w-[80%] sm:h-[60px] items-center sm:justify-center gap-x-4 sm:flex-row flex-col">

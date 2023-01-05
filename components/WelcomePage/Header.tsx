@@ -4,7 +4,7 @@ import React from 'react'
 function Header() {
   return (
     
-<nav className=" px-2 sm:px-4 py-2.5 w-full bg-gray-900 fixed top-0">
+<nav className=" z-10 px-2 sm:px-4 py-2.5 w-full bg-gray-900 fixed top-0">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
   <Link href="/" className="text-red-500 font-bold text-3xl">Avalanche</Link>
   <div className="flex md:order-2">

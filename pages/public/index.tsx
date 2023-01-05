@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../../components/WelcomePage/Header'
 import Hero from '../../components/WelcomePage/Hero'
 import Footrt from '../../components/WelcomePage/Footrt'
+import AboutUs from '../../components/WelcomePage/AboutUs'
 
 
 
@@ -17,7 +18,9 @@ export default function WelcomePage() {
       <main className="w-full">
        <Header />
        <Hero />
+       <AboutUs />
        <Footrt />
+      
       </main>
     </>
   )
