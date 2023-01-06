@@ -3,6 +3,7 @@ import Header from '../../components/WelcomePage/Header'
 import Hero from '../../components/WelcomePage/Hero'
 import Footrt from '../../components/WelcomePage/Footrt'
 import AboutUs from '../../components/WelcomePage/AboutUs'
+import Pricing from "../../components/WelcomePage/Pricing"
 
 
 
@@ -19,6 +20,7 @@ export default function WelcomePage() {
        <Header />
        <Hero />
        <AboutUs />
+       <Pricing />
        <Footrt />
       
       </main>
