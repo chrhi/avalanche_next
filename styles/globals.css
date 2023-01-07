@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+.background{
+    /* background-image: url('https://raw.githubusercontent.com/adrianhajdin/project_web3_battle_game/main/client/src/assets/background/hero-img.jpg'); */
+    background-image: url('../public/assets/heroimg.jpg');
+}

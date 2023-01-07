@@ -29,7 +29,7 @@ const features = [
 
 export default function AboutUs() {
   return (
-    <div className="bg-white py-24 sm:py-32 lg:py-40">
+    <div className="bg-white py-24 sm:py-32 lg:py-40 " id="aboutUs">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
           <h2 className="text-lg font-semibold leading-8 text-red-600">Transactions</h2>

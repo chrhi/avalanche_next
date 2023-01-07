@@ -3,17 +3,17 @@ import React from 'react'
 function Pricing() {
   return (
     <>
-     <div className='w-full h-[100px] sm:pl-12 pl-6 mb-4 '>
+     <div className='w-full h-[100px] sm:pl-12 pl-6 mb-4 ' id="pricing">
      <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">select your perfect plan</p>
         </div>
  
-    <div className='w-full flex flex-col sm:flex-row items-center mb-4 sm:justify-center gap-4 p-4'>
+    <div className='w-full flex flex-col sm:flex-row items-center mb-8 sm:justify-center gap-4 p-4'>
        
         {Card ()}
         {Card (true)}
         {Card ()}
     </div>
-    {model()}
+ 
     </>
   )
 }
