@@ -5,8 +5,9 @@ import Footrt from '../../components/WelcomePage/Footrt'
 import AboutUs from '../../components/WelcomePage/AboutUs'
 import Pricing from "../../components/WelcomePage/Pricing"
 import LogInComponent from '../../components/LoginPage/LogInComponent'
+import { useState } from 'react'
 
-export default function WelcomePage() {
+export default function Login() {
   return (
     <>
       <Head>

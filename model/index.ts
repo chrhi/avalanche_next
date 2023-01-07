@@ -1,11 +1,12 @@
-export type User ={
-    id:string,
-    name : string,
-    email : string,
-    password : string,
-    image : string,
-    coverImage : string,
-}
+// Document interface
+export type User = {
+    id: string
+    name: string
+    password: string
+    email: string
+    acount?:string 
+  
+  }|  {};
 
 export type Product ={
     createdBy:string,
