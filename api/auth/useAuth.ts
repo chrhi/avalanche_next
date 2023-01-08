@@ -26,6 +26,7 @@ export const login = async (password:string , email :string) =>{
 
     const response = await fetch(`${BASE_URL}auth` , {
         method:"POST",
+        credentials: 'include', // Don't forget to specify this if you need cookies
         headers:{
             "content-type": "application/json",
         },

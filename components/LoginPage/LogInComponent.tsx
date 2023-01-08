@@ -28,7 +28,7 @@ function LogInComponent() {
             console.log("username or email may be wrong " )
             return
         }
-        login(email, password).then(data =>{
+        login(password , email).then(data =>{
             if(data){
             setUser(data)
             }else{
