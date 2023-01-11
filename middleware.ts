@@ -34,20 +34,26 @@ export default async function middleware(req: NextRequest) {
   const url = req.url;
   const {pathname} = req.nextUrl;
 
-  if (pathname.startsWith("/signup")) {
+  if (pathname.startsWith("/public/signup")) {
     if (jwt === undefined) {
       req.nextUrl.pathname = "/";
+      console.log("the token is undifined")
       return NextResponse.redirect(req.nextUrl);
     }
 
     try {
       await verify(jwt, process.env.JWT_SECRET_KEY!);
+      
+      console.log("the token is working")
       return NextResponse.next();
     } catch (error) {
       req.nextUrl.pathname = "/";
+      console.log("the token is not working")
       return NextResponse.redirect(req.nextUrl);
     }
   }
+
+  console.log("the if is not wprking")
 
   return NextResponse.next();
 }
