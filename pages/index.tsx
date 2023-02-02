@@ -23,7 +23,7 @@ export default function Home() {
        
       </Head>
       <main className="container">
-        <h1>you loged in you made it bro!</h1>
+        <h1>you logged in you made it bro!</h1>
       </main>
     </>
   )

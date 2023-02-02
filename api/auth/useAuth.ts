@@ -20,10 +20,8 @@ export const login = async (password:string , email :string) =>{
 
     const userParam ={
         email ,
-        password 
-        
+        password    
     }
-
     const response = await fetch(`${BASE_URL}auth` , {
         method:"POST",
         credentials: 'include', // Don't forget to specify this if you need cookies
@@ -33,10 +31,7 @@ export const login = async (password:string , email :string) =>{
         body: JSON.stringify(userParam)
     })
     const data = await response.json()
-
     console.log("here from the login function ")
     console.log(data)
     return data
-
-
 }
